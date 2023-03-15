@@ -1,0 +1,154 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+/*background image*/
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url(images/ocean-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+	
+	
+}
+/*clearish big box behind logo*/
+.center {
+    width: 800px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(242, 253, 255, .75); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 4px;
+	outline: solid;
+	outline-color: white;
+	
+}
+
+/*logo*/
+#logo {
+    margin-bottom: 16px;
+	border: 3px none;
+	text-align:center;
+}
+/* header */
+h1 {
+	font-family: "new-hero", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1.5em;
+    margin: 0px auto 10px auto;
+    color: rgb(67, 75, 78);
+}
+/* subheader */
+h2 {
+	font-family: "new-hero", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+    line-height: 1.4;
+    color: rgb(67, 75, 78);
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+/* paragraph */
+p {
+	font-family: "new-hero", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1em;
+    line-height: 1.6;
+    color: rgb(67, 75, 78);
+}
+nav {
+	font-family: "new-hero", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	width: 400px;
+	margin: 0 auto;
+	border: none;
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+}
+
+nav li{
+	display: inline;
+}
+
+/* provides structure to links within the nav element */
+nav a{
+	display:inline-block;
+	padding:10px;
+}
+/*hover button color */
+a{
+	color: #000000;
+	text-decoration:none;
+	font-weight: normal;
+}
+
+/* When you hover over a link, the text will be boldend */
+a:hover{
+	font-weight: bold;
+}
+    
+    
+
